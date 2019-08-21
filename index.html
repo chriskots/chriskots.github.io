@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chris Kotsopoulos</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<body> 
+    
+<!-- Left Side -->
+
+<div class="split left">
+    
+    <mainnav>
+    <img class="navimage" src="images/guelphLogo.png">
+      <p-nav>Navigation</p-nav>
+      <ul id="permnav" class="nav">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#aboutMe">About Me</a></li>
+          <li><a href="#coop1">Co-Op Term 1</a></li>
+          <li><a href="#links">Links</a></li>
+      </ul>
+    </mainnav>
+    
+</div>
+
+<!-- Right side -->
+
+<div class="split right">
+    <!-- Fall down nav -->
+    <div class="mobilenav">
+        <img class="navbutton" onclick="openNav()" src="images/guelphLogo.png">
+    </div>
+
+    <div id="myNav" class="overlay">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <div class="overlay-content" onclick="closeNav()">
+                <a href="#home">Home</a>
+                <a href="#aboutMe">About Me</a>
+                <a href="#coop1">Co-Op Term 1</a>
+                <a href="#links">Links</a>
+          </div>
+    </div> 
+    <!--------->
+
+    <div class="section img" id="home">
+        <div class="middle">
+            <img src="images/guelphLogo.png" width="50%">
+            <br><br>
+            <h>Christopher Kotsopoulos</h>
+        </div>  
+    </div>
+    
+    <br><br>
+    
+    <div class="section img aboutMeHeader" id="aboutMe">
+        <div class="middle">
+            <h>About Me</h>
+        </div>
+    </div>
+    
+    <br>
+    
+    <div class="section">
+        <div class="center-div">
+            <img src="images/me.png" align="right" width="30%">
+            <h3>Me</h3>
+            <p>Hello My name is Chris, I'm a third year software engineer at the University of Guelph.</p>
+            <h3>Technical Skills</h3>
+            <p>Experience programming in <i>Java</i>, <i>C</i>, <i>Python</i>, <i>HTML</i>, <i>CSS</i>, <i>JavaScript</i>, <i>Perl</i>, <i>Assembly</i>, and <i>C#</i>. Experience working with operating systems such as <i>Windows</i>, <i>MacOS</i>, and <i>Linux</i>.</p>
+            <h3>Personal Projects</h3>
+            <p></p>
+        </div>
+        <br>
+        <div class="center-div">
+            
+        </div>
+    </div>
+    
+    <br><br>
+    
+    <div class="section img coop1Header" id="coop1">
+        <div class="middle">
+            <h>Co-Op Term 1</h>
+        </div>  
+    </div>
+    
+    <br>
+    
+    <div class = "section">
+        <div class="center-div">
+            
+        </div>
+    </div>
+    
+    <br><br>
+    
+    <div class="section img linksHeader" id="links">
+        <div class="middle">
+            <h>Links</h>
+        </div>  
+    </div>
+    
+    <br>
+    
+    <div class = "section">
+        <div class="center-div">
+            <a href="mailto:kotsopoc@uoguelph.ca" target="_blank" rel="nofollow noopener"><img src="images/mail.png" width="10%"></a>
+
+            <a href="https://github.com/chriskots"><img src="images/github.png" width="10%"></a>
+
+            <a href="https://www.linkedin.com/in/christopher-kotsopoulos-305931178/"><img src="images/linkedin.png" width="20%"></a>
+        </div>
+    </div>
+    <br><br>
+    <br>
+    
+</div>
+    
+</body>
+    
+<script>
+// This is for the hidden nav menu
+function openNav() {
+    document.getElementById("myNav").style.height = "100%";
+    document.body.style.overflow = 'hidden';
+    // + chris kotsopoulos
+}
+
+function closeNav() {
+    document.getElementById("myNav").style.height = "0%";
+    document.body.style.overflow = 'visible';
+}
+</script>
+</html>
