@@ -141,6 +141,11 @@ body {
     background-image: url("images/Coop2Header.jpg"); 
 }
 
+.coop3Header {
+    height: 30%;
+    background-image: url("images/Coop3Header.jpg"); 
+}
+
 .alert  {
     background-color: RGB(230, 92, 92);
 }
